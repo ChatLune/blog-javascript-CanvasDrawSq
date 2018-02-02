@@ -18,7 +18,14 @@ function chartbuild() {
 		var color = "#0404B4";  //塗りつぶし色
 		var color2 = "#819FF7";  //塗りつぶし色２
 
-		
+		//入力値を反映
+		x = parseInt(document.getElementById("x").value);
+		y = parseInt(document.getElementById("y").value);
+		w = parseInt(document.getElementById("width").value);
+		h = parseInt(document.getElementById("height").value);
+		r = parseInt(document.getElementById("radius").value);
+		color = document.getElementById("color").value;
+		color2 = document.getElementById("color2").value;	
 		
 		reset();
 
